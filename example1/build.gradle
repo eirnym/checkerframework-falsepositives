@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'org.checkerframework'
+}
+
+checkerFramework {
+    checkers = [
+            'org.checkerframework.checker.nullness.NullnessChecker',
+    ]
+    extraJavacArgs = [
+//        '-Awarns'
+    ]
+}
